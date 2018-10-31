@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type='text/javascript' src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script language="javascript">
+			$(function () {
+			  $(".toggle a").click(function () {
+			    $(".toggle a").toggle()
+			    $(".menu").toggle()
+			  })
+			});
+		</script>
+	</head>
+	<body>
+		<div class="toggle">
+			<a href="#" onclick="return false;" class="image" id="image1">Menu</a>
+			<a href="#" onclick="return false;" class="image" id="image2" style="display:none;">Exit</a>
+		</div>
+
+		<div class="menu" style="display:none;">
+			<div class="frame">
+				<img src="milk-house.svg">
+			</div>
+			<ul><!--NEEDS WORK-->
+				<li>PLEDGE</li>
+				<li>DOCUMENTARY</li>
+				<li>DONATE</li>
+				<li>ABOUT</li>
+				<li>INSTALLATION</li>
+			</ul>
+		</div>
+
+		<div class="real-body">
+			<h1>12800 CHILDREN AND COUNTING</h1>
+			<p>Children should not be separated from their families and incarcerated. All 12,800 and counting immigrant children should be free and reunited with their loved ones.</p>
+
+			<p>I pledge to spread the word about children being detained by the U.S. government. By signing this petition, I’ll create a ripple effect that helps bring attention to the issue and lead to the reunification of families.</p>
+
+			<p>Change will be possible by holding lawmakers accountable for their decisions until all immigrant children are free to be children.</p>
+
+			<div class="button" style="padding:0">
+				<p>NAME</p> <!--filler-->
+			</div>
+				<br>
+			<div class="button" style="padding:0">
+				<p>EMAIL</p> <!--filler-->
+			</div>
+				<br>
+			<div class="button">
+				<a href="/">SIGN PLEDGE</a> <!--needs reworking, align to bottom-->
+			</div>
+		</div>
+		<div class="frame">
+			<img src="milk-house.svg">
+		</div>
+	</body>
+</html>
