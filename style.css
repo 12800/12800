@@ -1,3 +1,12 @@
+@font-face {
+font-family: "DIN Engschrift";
+src: url("DINEngschriftStd.eot");
+src: 
+url("DINEngschriftStd.woff") format("woff"),
+url("DINEngschriftStd.otf") format("opentype"),
+url("DINEngschriftStd.svg#filename") format("svg");
+}
+
 .toggle img {
 	position:fixed;
 	width:50px;
@@ -5,14 +14,25 @@
 	z-index:2;
 }
 
+.logo {
+	position:fixed;
+	width:100px;
+	left:20px;
+	z-index:2;
+}
+
+.logo a:hover{
+	opacity:.5;
+}
+
 .frame {
 	position:fixed;
 	height:95%;
-	width:90%;
+	width:100%;
 	z-index:-2;
 	bottom:2.5%;
 	top:2.5%;
-	left:7%;
+	margin:0 auto;
 }
 
 .toggle {
@@ -21,11 +41,12 @@
 }
 
 .main-content {
-	width:500px;
 	border-style:solid;
 	border-color: black;
+	border-width:1px;
 	margin: 0 auto;
-	padding:20px 30px 20px 30px;
+	padding:10px 20px 10px 20px;
+	width:360px;
 }
 
 .button {
@@ -33,26 +54,26 @@
 	bottom:50px;
 	border-color:black;
 	border-style:solid;
-	border-width:3px;
-	padding: 15px 30px 15px 30px;
-	width:560px;
+	border-width:1px;
 	margin: 0 auto;
+	width:100%;
+	font-family: 'DIN Engschrift', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	text-align:center;
+	font-size:24px;
+	padding-top:8px;
 }
 
 .button a {
 	text-decoration:none;
 	color:black;
-	font-family:arial;
-	padding: 15px 30px 15px 30px;
 	width:100%;
-}
-
-.button a:hover {
-	color:white;
 }
 
 .button:hover {
 	background-color:black;
+	color:white;
 }
 
 .menu {
@@ -61,6 +82,10 @@
 	height:100%;
 	z-index:1;
 	background-color:white;
+}
+
+.toggle a:hover{
+	
 }
 
 .frame img {
@@ -73,22 +98,31 @@ body {
 }
 
 h1 {
+	font-family: 'DIN Engschrift', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
 	text-align:center;
-	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     color:white;
+    font-size:42px;
+    line-height:0px;
 }
 
 .real-body {
-	top:130px;
+	top:190px;
 	position:relative;
 	font-family:arial;
-	left:5%;
-	width:90%;
+	margin:auto;
+	width:500px;
+}
+
+.content-wrapper {
+	padding-bottom:10px;
 }
 
 ul {
-	top:130px;
+	top:190px;
 	position:relative;
 	list-style-type: none;
 	padding:0px;
@@ -96,24 +130,35 @@ ul {
 
 ul li {
 	text-align:center;
-	font-family:arial;
-	font-size:36px;
-	-webkit-text-stroke-width: 2px;
+	padding-top:20px;
+    padding-bottom:10px;
+	font-family: 'DIN Engschrift', Arial, sans-serif;
+	font-size:42px;
+	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     color:white;
-    padding-top:10px;
-    padding-bottom:10px;
+}
+ul a {
+	text-decoration:none;
 }
 
-ul li:hover {
+ul a li:hover {
 	background-color: black;
-	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
-    color:black;
+}
+
+ul a li:hover {
+	-webkit-text-stroke-color: white;
+	color:black;
 }
 
 p {
-	font-family:arial;
+	font-family: 'DIN Engschrift', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	text-align:center;
+	font-size:14px;
 }
 
 .share-links {
@@ -125,7 +170,7 @@ p {
 .link {
 	border-style:solid;
 	border-color:black;
-	border-width:3px;
+	border-width:1px;
 	width:50px;
 	height:50px;
 	margin-top:10px;
@@ -137,3 +182,36 @@ p {
 	margin-left:10px;
 	margin-top:10px;
 }
+
+a .link:hover {
+	background-color: black;
+}
+
+a .link img:hover{
+	fill:white;
+}
+
+.mc-field-group {
+	
+}
+
+.mc-field-group input {
+	border-bottom: 1px solid black;
+	padding:10px;
+	margin-bottom:10px;
+	border-top-color:transparent;
+	border-left-color:transparent;
+	border-right-color:transparent;
+}
+
+#mc_embed_signup {
+	clear:left;
+	width:400px;
+	font-family: 'DIN Engschrift', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	text-align:center;
+	font-size:14px;
+}
+
+
