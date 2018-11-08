@@ -114,7 +114,7 @@ h1 {
 }
 
 .real-body {
-	top:190px;
+	top:200px;
 	position:relative;
 	font-family:arial;
 	margin:auto;
@@ -162,13 +162,25 @@ p {
 	font-weight:normal;
 	font-style:normal;
 	text-align:center;
-	font-size:14px;
+	font-size:16px;
+	padding:10px 20px 10px 20px;
+	width:360px;
+	margin:0 auto;
+}
+
+h2 {
+	font-family: 'DIN Engschrift', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	text-align:center;
+	font-size:28px;
 }
 
 .share-links {
 	margin-left:10px;
 	bottom:18px;
 	position:fixed;
+	z-index:2;
 }
 
 .link {
