@@ -76,6 +76,10 @@ url("DINEngschriftStd.svg#filename") format("svg");
 	color:white;
 }
 
+a .button {
+	text-decoration:none;
+}
+
 .menu {
 	position:absolute;
 	width:100%;
