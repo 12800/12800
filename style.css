@@ -257,6 +257,7 @@ a .link img:hover{
 
 	.real-body {
 		width:70%;
+		top: 120px;
 	}
 
 	.main-content {
@@ -290,15 +291,19 @@ a .link img:hover{
 	}
 
 	h2{
-		font-size:26px;
+		font-size:22px;
 	}
 
 	.logo {
-		width:80px;
+		width:70px;
 	}
 
 	.share-links {
 		display:none;
+	}
+
+	.main-content {
+		padding:0px 5px 0px 5px;
 	}
 }
 
