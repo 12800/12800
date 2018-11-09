@@ -30,9 +30,15 @@ url("DINEngschriftStd.svg#filename") format("svg");
 	height:95%;
 	width:100%;
 	z-index:-2;
-	bottom:2.5%;
-	top:2.5%;
+	bottom:10px;
+	top:10px;
+}
+
+.frame img {
+	height: 100%;
+	width: 500px;
 	margin:0 auto;
+	display: block;
 }
 
 .toggle {
@@ -90,11 +96,6 @@ a .button {
 
 .toggle a:hover{
 	
-}
-
-.frame img {
-	height: 100%;
-	width: 100%;
 }
 
 body {
@@ -191,6 +192,7 @@ h2 {
 	height:50px;
 	margin-top:10px;
 }
+
 .link img{
 	width:30px;
 	height:30px;
@@ -229,5 +231,81 @@ a .link img:hover{
 	text-align:center;
 	font-size:14px;
 }
+
+#mce-FNAME {
+	width:170px;
+	float:left;
+}
+
+#mce-LNAME {
+	width:165px;
+	float:left;
+}
+
+#mce-EMAIL {
+	width:365px;
+	}
+
+#mce-MMERGE3 {
+	width:365px;
+}
+
+@media only screen and (max-width: 517px) {
+	.frame img {
+		width:95%;
+	}
+
+	.real-body {
+		width:70%;
+	}
+
+	.main-content {
+		width:85%;
+	}
+
+	#mc_embed_signup {
+		width:85%;
+	}
+
+	.mc-field-group {
+		width:85%;
+	}
+
+	#mce-FNAME {
+		width:200px;
+		float:none;
+	}
+
+	#mce-LNAME {
+		width:200px;
+		float:none;
+	}
+
+	#mce-EMAIL {
+		width:200px;
+		}
+
+	#mce-MMERGE3 {
+		width:200px;
+	}
+
+	h2{
+		font-size:26px;
+	}
+
+	.logo {
+		width:80px;
+	}
+
+	.share-links {
+		display:none;
+	}
+}
+
+
+
+
+
+
 
 
