@@ -348,7 +348,7 @@ a .link img:hover{
 
 @media only screen and (max-width: 373px) {
 	ul {
-		top:130px;
+		top:100px;
 	}
 
 	.button {
@@ -423,6 +423,10 @@ a .link img:hover{
 
 	#mce-MMERGE3 {
 		width:150px;
+	}
+
+	ul li {
+		font-size:24px;
 	}
 }
 
