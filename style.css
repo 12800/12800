@@ -251,6 +251,11 @@ a .link img:hover{
 }
 
 @media only screen and (max-width: 517px) {
+	.button {
+		color:black;
+	}
+
+
 	.frame img {
 		width:95%;
 	}
