@@ -258,6 +258,7 @@ a .link img:hover{
 		border-radius: 0;
 		font-size:19px;
 		-webkit-appearance: none;
+		background-color: white;
 	}
 
 	#mc_embed_signup {
