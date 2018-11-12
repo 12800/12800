@@ -69,6 +69,7 @@ url("DINEngschriftStd.svg#filename") format("svg");
 	text-align:center;
 	font-size:24px;
 	padding-top:8px;
+	border-radius: 0;
 }
 
 .button a {
@@ -235,11 +236,13 @@ a .link img:hover{
 #mce-FNAME {
 	width:170px;
 	float:left;
+	margin-left:5px;
 }
 
 #mce-LNAME {
 	width:165px;
 	float:left;
+	margin-left:5px;
 }
 
 #mce-EMAIL {
@@ -253,6 +256,12 @@ a .link img:hover{
 @media only screen and (max-width: 517px) {
 	.button {
 		border-radius: 0;
+		font-size:19px;
+		-webkit-appearance: none;
+	}
+
+	#mc_embed_signup {
+	font-size:12px;
 	}
 
 	.mc-field-group input {
@@ -284,17 +293,19 @@ a .link img:hover{
 
 	.mc-field-group input {
 		margin-bottom:5px;
-		padding-bottom:0px;
+		padding-bottom:7px;
 	}
 
 	#mce-FNAME {
 		width:200px;
 		float:none;
+		margin-left:0px;
 	}
 
 	#mce-LNAME {
 		width:200px;
 		float:none;
+		margin-left:0px;
 	}
 
 	#mce-EMAIL {
@@ -306,15 +317,15 @@ a .link img:hover{
 	}
 
 	h1{
-		font-size:31px;
+		font-size:28px;
 	}
 
 	h2{
-		font-size:22px;
+		font-size:19px;
 	}
 
 	.logo {
-		width:70px;
+		width:60px;
 	}
 
 	.share-links {
