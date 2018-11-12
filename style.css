@@ -49,7 +49,7 @@ url("DINEngschriftStd.svg#filename") format("svg");
 .main-content {
 	border-style:solid;
 	border-color: black;
-	border-width:.5px;
+	border-width:1px;
 	margin: 0 auto;
 	padding:10px 20px 10px 20px;
 	width:360px;
@@ -140,7 +140,7 @@ ul li {
     padding-bottom:10px;
 	font-family: 'DIN Engschrift', Arial, sans-serif;
 	font-size:42px;
-	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-width: .8px;
     -webkit-text-stroke-color: black;
     color:white;
 }
@@ -150,7 +150,7 @@ ul a {
 
 ul a li:hover {
 	background-color: black;
-	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-width: .8px;
     -webkit-text-stroke-color: white;
 }
 
@@ -215,7 +215,7 @@ a .link img:hover{
 }
 
 .mc-field-group input {
-	border-bottom: .5px solid black;
+	border-bottom: 1px solid black;
 	padding:10px;
 	margin-bottom:10px;
 	border-top-color:transparent;
