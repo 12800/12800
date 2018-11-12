@@ -174,7 +174,7 @@ h2 {
 	font-weight:normal;
 	font-style:normal;
 	text-align:center;
-	font-size:28px;
+	font-size:22px;
 }
 
 .share-links {
@@ -252,7 +252,7 @@ a .link img:hover{
 
 @media only screen and (max-width: 517px) {
 	.button {
-		color:black;
+		background-color:black;
 	}
 
 
