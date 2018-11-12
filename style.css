@@ -286,7 +286,6 @@ a .link img:hover{
 
 	#mc_embed_signup {
 		width:85%;
-		margin:0 auto;
 	}
 
 	.mc-field-group {
@@ -347,6 +346,85 @@ a .link img:hover{
 	}
 }
 
+@media only screen and (max-width: 373px) {
+	ul {
+		top:130px;
+	}
+
+	.button {
+		border-radius: 0;
+		font-size:16px;
+		-webkit-appearance: none;
+		background-color: white;
+	}
+
+	h1{
+		font-size:25px;
+	}
+
+	h2{
+		font-size:16px;
+		margin-top:10px;
+		margin-bottom:5px;
+	}
+
+	#mc_embed_signup {
+		font-size:12px;
+	}
+
+	.mc-field-group input {
+		background-color:#F6F6F6;
+		border-bottom-color:transparent;
+	}
+
+	.frame img {
+		width:95%;
+	}
+
+	.real-body {
+		width:70%;
+		top: 130px;
+	}
+
+	.main-content {
+		width:85%;
+		background-color:white;
+		padding:0px 5px 0px 5px;
+	}
+
+	#mc_embed_signup {
+		width:85%;
+	}
+
+	.mc-field-group {
+		width:85%;
+	}
+
+	.mc-field-group input {
+		margin-bottom:5px;
+		padding-bottom:7px;
+	}
+
+	#mce-FNAME {
+		width:150px;
+		float:none;
+		margin-left:0px;
+	}
+
+	#mce-LNAME {
+		width:150px;
+		float:none;
+		margin-left:0px;
+	}
+
+	#mce-EMAIL {
+		width:150px;
+		}
+
+	#mce-MMERGE3 {
+		width:150px;
+	}
+}
 
 
 
