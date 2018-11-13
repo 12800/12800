@@ -7,6 +7,32 @@ url("DINEngschriftStd.otf") format("opentype"),
 url("DINEngschriftStd.svg#filename") format("svg");
 }
 
+.toggle-lang {
+	position:fixed;
+	right:10px;
+	top:50%;
+}
+
+.toggle-lang a {
+	font-family: 'DIN Engschrift', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration: none;
+	color:black;
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	padding-top:5px;
+	padding-left:5px;
+	padding-right:5px;
+	background-color: white;
+}
+
+.toggle-lang a:hover {
+	color:white;
+	background-color:black;
+}
+
 .toggle img {
 	position:fixed;
 	width:50px;
@@ -55,6 +81,15 @@ url("DINEngschriftStd.svg#filename") format("svg");
 	width:360px;
 }
 
+.main-content-esp {
+	border-style:solid;
+	border-color: black;
+	border-width:1px;
+	margin: 0 auto;
+	padding:10px 20px 10px 20px;
+	width:360px;
+}
+
 .button {
 	text-align:center;
 	bottom:50px;
@@ -80,6 +115,35 @@ url("DINEngschriftStd.svg#filename") format("svg");
 }
 
 .button:hover {
+	background-color:black;
+	color:white;
+}
+
+.button-esp {
+	text-align:center;
+	bottom:50px;
+	border-color:black;
+	background-color:white;
+	border-style:solid;
+	border-width:1px;
+	margin: 0 auto;
+	width:100%;
+	font-family: 'DIN Engschrift', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	text-align:center;
+	font-size:24px;
+	padding-top:8px;
+	border-radius: 0;
+}
+
+.button-esp a {
+	text-decoration:none;
+	color:black;
+	width:100%;
+}
+
+.button-esp:hover {
 	background-color:black;
 	color:white;
 }
@@ -255,7 +319,22 @@ a .link img:hover{
 }
 
 @media only screen and (max-width: 517px) {
+
+	.toggle-lang {
+		position:fixed;
+		right:0px;
+		top:50%;
+		transform: rotate(90deg);
+	}
+
 	.button {
+		border-radius: 0;
+		font-size:19px;
+		-webkit-appearance: none;
+		background-color: white;
+	}
+
+	.button-esp {
 		border-radius: 0;
 		font-size:19px;
 		-webkit-appearance: none;
@@ -281,6 +360,11 @@ a .link img:hover{
 	}
 
 	.main-content {
+		width:85%;
+		background-color:white;
+	}
+
+	.main-content-esp {
 		width:85%;
 		background-color:white;
 	}
@@ -338,6 +422,10 @@ a .link img:hover{
 		padding:0px 5px 0px 5px;
 	}
 
+	.main-content-esp {
+		padding:0px 5px 0px 5px;
+	}
+
 	.menu{
 		top: 0px;
 	}
@@ -361,6 +449,13 @@ a .link img:hover{
 	}
 
 	.button {
+		border-radius: 0;
+		font-size:16px;
+		-webkit-appearance: none;
+		background-color: white;
+	}
+
+	.button-esp {
 		border-radius: 0;
 		font-size:16px;
 		-webkit-appearance: none;
@@ -396,6 +491,12 @@ a .link img:hover{
 	}
 
 	.main-content {
+		width:85%;
+		background-color:white;
+		padding:0px 5px 0px 5px;
+	}
+
+	.main-content-esp {
 		width:85%;
 		background-color:white;
 		padding:0px 5px 0px 5px;
